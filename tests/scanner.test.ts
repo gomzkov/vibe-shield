@@ -1,5 +1,5 @@
 import { expect, test, describe } from "bun:test";
-import { scanFiles } from "./scanner";
+import { scanFiles } from "../src/scanner";
 import { writeFileSync, mkdirSync, rmSync } from "fs";
 import { join } from "path";
 
